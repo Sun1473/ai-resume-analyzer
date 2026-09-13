@@ -1,0 +1,22 @@
+# Backend
+backend/target/
+*.class
+*.log
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env
+
+# Secrets — never commit these
+.env
+application-secrets.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
