@@ -18,7 +18,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/resume")
-@CrossOrigin(origins = {"http://localhost:3000", "https://ai-resume-analyzer-mmzsbd6md-naman-092d.vercel.app"})
+@CrossOrigin(origins = {"http://localhost:3000", "https://ai-resume-analyzer-ten-lovat.vercel.app"})
 public class ResumeController {
 
     private final ResumeAnalysisServiceImpl analysisService;
